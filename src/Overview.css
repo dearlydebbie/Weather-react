@@ -1,0 +1,39 @@
+.overview ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.overview #celsius {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.overview #farenheit {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.overview h1 {
+  font-weight: 550;
+  opacity: 0.9;
+}
+
+.overview img {
+  height: 140px;
+  width: 140px;
+  position: relative;
+  top: -25px;
+}
+
+.active {
+  text-decoration: none;
+  color: #5a6275;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: #5a6275;
+}
+
