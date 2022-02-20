@@ -19,15 +19,15 @@ export default function App() {
         <div class="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="image"
+            alt="sunny"
             id="icon"
           />
           <span id="temperature">11</span>
-          <a href="#" id="celsius" class="active">
+          <a href="/" id="celsius" class="active">
             °C
           </a>{" "}
           |
-          <a href="#" id="farenheit">
+          <a href="/" id="farenheit">
             °F
           </a>
         </div>

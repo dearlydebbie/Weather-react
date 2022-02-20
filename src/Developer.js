@@ -5,7 +5,7 @@ export default function Developer() {
     <div className="Developer">
       <a
         href="https://github.com/dearlydebbie/debbies-weather-app"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         Open-Source Code{" "}
       </a>
