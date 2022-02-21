@@ -1,17 +1,6 @@
 .overview ul {
-  list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.overview #celsius {
-  font-size: 22px;
-  text-decoration: none;
-}
-
-.overview #farenheit {
-  font-size: 22px;
-  text-decoration: none;
 }
 
 .overview h1 {
@@ -19,21 +8,53 @@
   opacity: 0.9;
 }
 
-.overview img {
-  height: 140px;
-  width: 140px;
+.Overview li {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #5a6275;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.Overview li strong {
+  color: #5a6275;
+  font-weight: normal;
+}
+
+.Overview .temperature {
+  font-weight: bold;
+  color: #5a6275;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1;
+}
+
+.Overview canvas {
+  margin: 10px 0;
+}
+
+.Overview .unit {
+  color: #5a6275;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal;
   position: relative;
-  top: -25px;
+  line-height: 1;
+  top: -34px;
 }
-
-.active {
-  text-decoration: none;
+.btn {
+  margin-left: 10px;
+  margin-right: 5px;
   color: #5a6275;
-  cursor: default;
+  background: #c8ccd3;
+  border-color: #5a6275;
+  border-radius: 10px;
 }
-
-.active:hover {
-  text-decoration: none;
-  color: #5a6275;
+.btn:hover {
+  color: #c8ccd3;
+  background: #5a6275;
 }
-

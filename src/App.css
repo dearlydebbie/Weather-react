@@ -7,10 +7,13 @@
   max-width: 800px;
   margin-top: 20px;
   margin: 30px auto;
-  border: 1px solid #333344;
-  border-radius: 5px;
   color: #5a6275;
-  background-color: #c8ccd3;
+  background: rgba(200, 204, 211, 0.62);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+  border: 1px solid rgba(200, 204, 211, 0.63);
   padding: 25px;
   margin-bottom: 0;
 }
